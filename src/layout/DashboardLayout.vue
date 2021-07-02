@@ -1,5 +1,6 @@
 <template>
   <div class="wrapper" :class="{ 'nav-open': $sidebar.showSidebar }">
+
     <side-bar
       :background-color="sidebarBackground"
       short-title="Argon"
@@ -92,4 +93,4 @@ export default {
   },
 };
 </script>
-<style lang="scss"></style>
+<style lang="scss"></style>z

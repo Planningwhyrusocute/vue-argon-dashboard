@@ -1,6 +1,5 @@
 <template>
-  <div class="main-content bg-three">
-
+  <div class="main-content bg-default">
     <!-- Navbar -->
     <base-nav
       class="navbar-top navbar-horizontal navbar-dark"
@@ -63,17 +62,15 @@
       </template>
     </base-nav>
     <!-- Header -->
-    <div class="header  py-7 py-lg-8 bg-optimus">
+    <div class="header bg-gradient-success py-7 py-lg-8">
       <div class="container">
         <div class="header-body text-center mb-7">
           <div class="row justify-content-center">
             <div class="col-lg-5 col-md-6">
-              <h1 class="text-dark gray">Welcome!</h1>
-              <p class="text-lead text-dark gray">
-              " END OF SEASON SALE "
-              
-
-
+              <h1 class="text-white">Welcome!</h1>
+              <p class="text-lead text-white">
+                Use these awesome forms to login or create new account in your
+                project for free.
               </p>
             </div>
           </div>
@@ -167,21 +164,4 @@ export default {
   },
 };
 </script>
-<style>
-.bg-optimus{
-  background-color: #B28D5A;
-  background-image: url("https://storage.googleapis.com/fastwork-static/dca6694b-a21b-4d83-b4ff-0903a57112f5.jpg");
-  background-size: 50%;
-  background-position-y: 100000000px;
-  background-repeat: no-repeat;
-  background-position: center;
-
-  
-}
-
-.bg-three{
-  background-color: #ebca8a;
-}
-</style>
-#ebca8a
-#B28D5A
+<style></style>
